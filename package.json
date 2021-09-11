@@ -1,0 +1,23 @@
+{
+  "name": "ds-over-api",
+  "version": "1.0.0",
+  "description": "Data Structures over API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rvigneshw/DS-over-API.git"
+  },
+  "author": "Vigneshwaran R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rvigneshw/DS-over-API/issues"
+  },
+  "homepage": "https://github.com/rvigneshw/DS-over-API#readme",
+  "dependencies": {
+    "fastify": "^3.21.0"
+  }
+}
