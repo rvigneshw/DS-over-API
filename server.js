@@ -1,13 +1,8 @@
-// Require the framework and instantiate it
 const fastify = require("fastify")({ logger: true });
 
-// Declare a route
-fastify.get("/", async (request, reply) => {
-  return { hello: "world" };
-});
 fastify.register(require("./routes/stack"), { prefix: "/stack" });
+fastify.register(require("./routes/queue"), { prefix: "/queue" });
 
-// Run the server!
 const start = async () => {
   try {
     await fastify.listen(3000);

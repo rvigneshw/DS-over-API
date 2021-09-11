@@ -8,7 +8,7 @@ module.exports = class Stack {
   }
 
   pop() {
-    return this.stack ? this.stack.pop() : null;
+    return this.stack.pop();
   }
 
   peek() {
